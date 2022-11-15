@@ -17,7 +17,7 @@ phases:
       - echo "DONE!!"
 
   artifacts:
-  files:
-    - frontend/index.html
-    - frontend/index.css
-    - frontend/apiGateway-js-sdk
+    files:
+      - frontend/index.html
+      - frontend/index.css
+      - frontend/apiGateway-js-sdk
