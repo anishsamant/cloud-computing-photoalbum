@@ -1,0 +1,23 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+    commands:
+      - echo "Installing dependencies..."
+      - pip install --upgrade pip
+      - pip install --upgrade awscli
+  build:
+    commands:
+      - echo "Nothing here"
+
+  post_build:
+    commands:
+      - echo "Updating S3 Bucket..."
+      - echo "DONE!!"
+
+  artifacts:
+  files:
+    - frontend/index.html
+    - frontend/index.css
+    - frontend/apiGateway-js-sdk
