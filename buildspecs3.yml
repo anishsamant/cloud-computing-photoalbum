@@ -7,6 +7,11 @@ phases:
       - echo "Installing dependencies..."
       - pip install --upgrade pip
       - pip install --upgrade awscli
+
+  pre_build:
+    commands:
+      - echo "Nothing here"
+
   build:
     commands:
       - echo "Nothing here"
