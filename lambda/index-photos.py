@@ -12,6 +12,7 @@ es_password = os.environ.get('ES_PASSWORD')
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
+print("index-photos updated via codebuild")
 
 def try_ex(func):
     try:

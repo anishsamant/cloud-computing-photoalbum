@@ -7,6 +7,7 @@ import inflect
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
+print("search-photos updated via codebuild")
 
 #Set Constants
 botId = os.environ.get('BOT_ID')
