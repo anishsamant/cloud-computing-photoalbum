@@ -23,6 +23,6 @@ phases:
 
 artifacts:
   files:
-    - index.html
-    - index.css
-    - apiGateway-js-sdk/
+    - frontend/index.html
+    - frontend/index.css
+    - frontend/apiGateway-js-sdk/
