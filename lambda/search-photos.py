@@ -7,7 +7,6 @@ import inflect
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-print("search-photos updated via codepipeline")
 
 #Set Constants
 botId = os.environ.get('BOT_ID')
@@ -27,6 +26,7 @@ def try_func(func):
         return None
 
 def lambda_handler(event, context):
+    print("search-photos updated via codebuild and codepipeline")
     print(event)
     logger.debug('EVENT:')
     logger.debug(event)

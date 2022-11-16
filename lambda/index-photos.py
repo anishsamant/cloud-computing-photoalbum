@@ -12,7 +12,6 @@ es_password = os.environ.get('ES_PASSWORD')
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-print("index-photos updated via codepipeline")
 
 def try_ex(func):
     try:
@@ -54,6 +53,7 @@ def get_s3_metadata(bucket, photo):
         ''
 
 def lambda_handler(event, context):
+    print("index-photos updated via codebuild and codepipeline")
     logger.debug('LF is invoked by S3')
     logger.debug(event)
 
