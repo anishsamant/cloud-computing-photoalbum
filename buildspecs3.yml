@@ -18,11 +18,5 @@ phases:
 
   post_build:
     commands:
-      - echo "Updating S3 Bucket..."
-      - echo "DONE!!"
-
-artifacts:
-  files:
-    - frontend/index.html
-    - frontend/index.css
-    - frontend/apiGateway-js-sdk/
+      - echo "Updating files in the S3 bucket..."
+      - aws s3 sync frontend/ s3://cc-photoalbum --delete
