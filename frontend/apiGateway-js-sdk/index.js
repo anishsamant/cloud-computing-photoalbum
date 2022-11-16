@@ -1,12 +1,11 @@
-// updated final
 var apigClient = apigClientFactory.newClient();
 window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
 
 function voiceSearch(){
     if ('SpeechRecognition' in window) {
-        console.log("SpeechRecognition is Working");
+        console.log("SpeechRecognition is Working right");
     } else {
-        console.log("SpeechRecognition is Not Working");
+        console.log("SpeechRecognition is Not Working right");
     }
     
     var inputSearchQuery = document.getElementById("search_query");

@@ -1,4 +1,3 @@
-/* updated final*/
 * {
     margin: 10px;
     padding: 0;
@@ -22,7 +21,7 @@
   background-color: white; 
   color: white; 
   border: 2px solid #af3030;
-  background-color: #af3030
+  background-color: #9c30af
 }
 
 .button1:hover {
