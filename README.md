@@ -27,7 +27,8 @@ AWS CodePipeline is a fully managed continuous delivery service that helps you a
 
 ▫️ AWS Cloud Formation :
 AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.
-
+<br/>
+<br/>
 # APPLICATION ARCHITECTURE
 ![appArchitecture](https://user-images.githubusercontent.com/21247634/202066747-97eb2560-15d2-4667-8e8a-278ac068a860.png)
 
