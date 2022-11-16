@@ -53,7 +53,7 @@ def get_s3_metadata(bucket, photo):
         ''
 
 def lambda_handler(event, context):
-    print("index-photos updated via codebuild and codepipeline")
+    print("index-photos updated via codebuild and codepipeline v.1")
     logger.debug('LF is invoked by S3')
     logger.debug(event)
 
