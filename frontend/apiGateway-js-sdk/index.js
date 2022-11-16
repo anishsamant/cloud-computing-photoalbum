@@ -1,4 +1,4 @@
-// updated new
+// updated final
 var apigClient = apigClientFactory.newClient();
 window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
 
