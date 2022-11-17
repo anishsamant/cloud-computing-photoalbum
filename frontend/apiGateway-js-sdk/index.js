@@ -62,7 +62,12 @@ function searchPhotos(searchText) {
         'q' : searchText
     };
     
-    apigClient.searchGet(params, {}, {})
+    var additionalParams = {
+        headers: {
+            'x-api-key': 'RjALPW3NfZ9U7Pr9LbJz47rXI2m1PVTS9AHpIPb7'
+        }
+    };
+    apigClient.searchGet(params, {}, additionalParams)
         .then(function(result) {
             console.log("Result : ", result);
 
