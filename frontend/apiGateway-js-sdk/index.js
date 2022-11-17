@@ -127,6 +127,7 @@ function uploadPhoto() {
 
             var myHeaders = new Headers();
             myHeaders.append("x-amz-meta-customLabels",  customLabels.value);
+            myHeaders.append("x-api-key", "RjALPW3NfZ9U7Pr9LbJz47rXI2m1PVTS9AHpIPb7");
             myHeaders.append("Content-Type", fileType);
             var file = new Uint8Array(reader.result);
     
